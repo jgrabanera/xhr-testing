@@ -1,0 +1,26 @@
+{
+  "name": "xhr-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgrabanera/xhr-testing.git"
+  },
+  "keywords": [
+    "xhr"
+  ],
+  "author": "Jomar Rabanera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgrabanera/xhr-testing/issues"
+  },
+  "homepage": "https://github.com/jgrabanera/xhr-testing#readme",
+  "dependencies": {
+    "cypress": "^10.10.0",
+    "npx": "^10.2.2"
+  }
+}
