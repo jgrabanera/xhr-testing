@@ -1,12 +1,12 @@
 /// <reference types="cypress" />
-
-//https://example.cypress.io/commands/network-requests
+import xhr_HomePage_PO from '../support/pageObjects/xhr_Homepage_PO';
 
 describe('Network Request', () => {
+  const xhr_Homepage = new xhr_HomePage_PO();
   let message = 'Unable to find comment!';
 
   beforeEach(() => {
-    cy.visit('https://example.cypress.io/commands/network-requests');
+    xhr_Homepage.accessXHR();
   });
 
   it('GET Request', () => {
